@@ -1,0 +1,33 @@
+@import "colors.scss";
+
+.header {
+  align-items: center;
+  background-color: $soft-red;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+
+    span:first-child {
+      color: $cream;
+      letter-spacing: 0.5px;
+    }
+
+    span:last-child {
+      color: $very-pale-orange;
+      font-size: 1.8rem;
+    }
+  }
+
+  .right {
+    img {
+      width: 5rem;
+    }
+  }
+}

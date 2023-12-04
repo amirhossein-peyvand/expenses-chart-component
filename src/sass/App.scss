@@ -1,0 +1,6 @@
+@import "colors.scss";
+
+.app {
+  width: clamp(200px, 95%, 52rem);
+  margin: auto;
+}
