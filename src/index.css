@@ -13,6 +13,7 @@ html {
 
 body {
   align-items: center;
+  background-color: hsl(27, 66%, 92%);
   display: flex;
   justify-content: center;
   min-height: 100vh;

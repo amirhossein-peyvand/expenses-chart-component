@@ -1,6 +1,9 @@
 @import "colors.scss";
 
 .app {
-  width: clamp(200px, 95%, 52rem);
+  width: clamp(200px, 90%, 40rem);
+  display: flex;
+  flex-direction: column;
   margin: auto;
+  row-gap: 2rem;
 }

@@ -1,0 +1,20 @@
+@import "colors.scss";
+
+.mainContent {
+  background-color: $very-pale-orange;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  row-gap: 2rem;
+
+  .top {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      color: $dark-brown;
+      margin-bottom: 4rem;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+@import "colors.scss";
+
+.chartsContainer {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem;
+
+  .chart {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 1rem;
+    position: relative;
+    row-gap: 0.8rem;
+    width: 3.5rem;
+
+    .amount {
+      align-items: center;
+      background: transparent;
+      border-radius: 3px;
+      color: $very-pale-orange;
+      display: flex;
+      font-size: 0.9rem;
+      justify-content: center;
+      letter-spacing: 0.6px;
+      padding: 0.6rem 0.5rem;
+      width: 3.8rem;
+    }
+
+    .bar {
+      background-color: $soft-red;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .bar:hover {
+      opacity: 0.7;
+    }
+
+    .mon {
+      height: 4rem;
+    }
+
+    .tue {
+      height: 8rem;
+    }
+
+    .wed {
+      height: 12rem;
+    }
+
+    .thu {
+      height: 7.5rem;
+    }
+
+    .fri {
+      height: 5.5rem;
+    }
+
+    .sat {
+      height: 10rem;
+    }
+
+    .sun {
+      height: 6.5rem;
+    }
+
+    .day {
+      color: $medium-brown;
+      letter-spacing: 0.4px;
+    }
+  }
+
+  .chart:hover {
+    .amount {
+      background-color: $dark-brown;
+    }
+  }
+}
