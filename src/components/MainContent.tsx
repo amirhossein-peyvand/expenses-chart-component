@@ -9,7 +9,16 @@ const MainContent = () => {
         <ChartsContainer />
       </section>
       <hr />
-      <section className="bottom"></section>
+      <section className="bottom">
+        <div className="left">
+          <span>Total this month</span>
+          <span>$478.33</span>
+        </div>
+        <div className="right">
+          <span>+2.4%</span>
+          <span>from last month</span>
+        </div>
+      </section>
     </main>
   );
 };
