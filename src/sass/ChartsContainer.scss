@@ -79,3 +79,23 @@
     }
   }
 }
+
+@media screen and (min-width: 350px) {
+  .chartsContainer {
+    .chart {
+      .day {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .chartsContainer {
+    .chart {
+      .day {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
